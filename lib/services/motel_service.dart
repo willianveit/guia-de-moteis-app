@@ -25,7 +25,13 @@ class MotelService {
         throw HttpException('Failed to load motels: ${response.statusCode}');
       }
 
-      final data = json.decode(response.body);
+      dynamic data;
+      try {
+        data = json.decode(utf8.decode(response.bodyBytes));
+      } catch (e) {
+        data = json.decode(response.body);
+      }
+
       final List<dynamic> motelsList =
           data['data']?['moteis'] as List<dynamic>? ?? [];
 
