@@ -1,16 +1,17 @@
-# guia_de_moteis_app
+# Motel Guide App 📍🏩
 
-A new Flutter project.
+Repositório para o desafio de desenvolvimento de um aplicativo de listagem de motéis, exibindo nome, preço e imagem, consumindo APIs mock.
 
-## Getting Started
+## Requisitos:
 
-This project is a starting point for a Flutter application.
+- Listagem com nome, preço e imagem dos motéis.
+- Design livre (não precisa ser 100% fiel).
+- Não há navegação entre telas.
+- Implementação de testes unitários com cobertura mínima de 70%.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Dart & Flutter**
+- **API Consumption** com pacote `http`
+- **Gerenciamento de Estado** (Provider, Riverpod, ChangeNotifier ou Bloc)
+- **Testes Unitários**: Cobertura mínima de 70%.
